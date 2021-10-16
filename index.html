@@ -1,34 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>CSS Contact Card Design with Glassmorphism</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    <div class="card">
-        <span class="pro">PRO</span>
-        <img class="img" src="img/profile.jpg">
-        <h3>Nicolas Eugui Bentancor</h3>
-        <h6>Soriano, Uruguay</h6>
-        <p>Web Developer</p>
-        <div class="buttons">
-            <button><a href="mailito:nico2014.gta@gmail.com">Contact Me</a></button>
-            <button><a href="https://github.com/NicoEugui">Projects</a></button>
+    <section>
+        <div class="container">
+            <div class="m-0 vh-100 row justify-content-center">
+                <div class="col-md-4">
+                    <div class="card profile-card-3">
+                        <div class="background-block">
+                            <img src="img/banner.jpeg"
+                                alt="profile-sample1" class="background" />
+                        </div>
+                        <div class="profile-thumb-block">
+                            <img src="img/profile.png" alt="profile-image"
+                                class="profile" />
+                        </div>
+                        <div class="card-content">
+                            <h2>Nicolas Eugui<small>Web Developer</small></h2>
+                                <div class="icon-block">
+                                    <a href="https://github.com/NicoEugui">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                    <a href="https://www.instagram.com/nico_eugui/">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                    <a href="https://twitter.com/nico_eugui">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                    <a href="mailto:nico2014.gta@gmail.com">
+                                        <i class="fas fa-envelope"></i>
+                                    </a>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
         </div>
-        <div class="skills">
-            <h6>Skills</h6>
-            <ul>
-                <li>CSS</li>
-                <li>HTML</li>
-                <li>UI / UX</li>
-                <li>JavaScript</li>
-                <li>PHP</li>
-                <li>Linux</li>
-                <li>Windows Server</li>
-                <li>MySQL</li>
-            </ul>
-        </div>
-    </div>
+    </section>
+
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </body>
+
 </html>
